@@ -13,6 +13,7 @@ a=""
 print(a)
 print(len(a))
 print(type(a))
+<<<<<<< HEAD
 #string information
 a="Python Programming"
 print(a[:])
@@ -97,3 +98,41 @@ print(a*10)
 #pattern
 a="*" * 10
 print(a)
+=======
+
+#3
+
+b="Python Programming"
+
+print(b[0:],len(b),b[0],b[18],b[17])
+
+#4
+
+c="Programming"
+
+print(c[0],c[1],c[4],c[9])
+
+#5
+
+print(c[-1],c[-2],c[-3],c[-11])
+
+#6
+
+d="dhyani"
+
+print(d[0],d[5])
+
+#7
+
+print(b[0:6],b[7:],b,b[:5],b[12:])
+
+#8
+
+e="ABCDEFGHIJKL"
+
+print(e[1:8:2])
+
+#9
+
+print(e[1:8:-1])
+>>>>>>> 7d077e7df9b0057c9b30a367cec54c56d7a6ee23

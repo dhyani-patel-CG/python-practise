@@ -33,7 +33,7 @@ print(c[-1],c[-2],c[-3],c[-11])
 
 #6
 
-d="tarang"
+d="dhyani"
 
 print(d[0],d[5])
 

@@ -1,0 +1,48 @@
+num1 = float(input())
+num2 = float(input())
+sum_val = num1 + num2
+print(sum_val)
+
+num = int(input())
+if num % 2 == 0:
+    print("Even")
+else:
+    print("Odd")
+
+a = float(input())
+b = float(input())
+c = float(input())
+
+if a >= b and a >= c:
+    print(a)
+elif b >= a and b >= c:
+    print(b)
+else:
+    print(c)
+
+age = int(input())
+if age >= 18:
+    print("Eligible")
+else:
+    print("Not Eligible")
+
+price = float(input())
+
+if price >= 2000:
+    discount = price * 0.20
+    final_price = price - discount
+else:
+    final_price = price
+
+print(final_price)
+
+m1 = float(input())
+m2 = float(input())
+m3 = float(input())
+
+avg = (m1 + m2 + m3) / 3
+
+if avg >= 40:
+    print("Pass")
+else:
+    print("Fail")

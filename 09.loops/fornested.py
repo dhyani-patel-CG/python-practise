@@ -219,3 +219,12 @@
 #         print("*",end=" ")
 #     print()
 
+# 35
+n = int(input("enter a charecter: "))
+for i in range(0,n):
+    for j in range(i):
+        a = chr(65+j)
+        print(a , end=" ")
+    print()
+
+

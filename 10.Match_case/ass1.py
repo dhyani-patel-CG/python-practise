@@ -17,7 +17,7 @@
 
 # #Q2]
 
-# print("1 ==> Wif - Fi\n2 ==> Bluetooth\n3 ==> Mobile Data\n4 ==> Airplane Mode\n5 ==> Exit")
+# print("1 ==> Wi-Fi\n2 ==> Bluetooth\n3 ==> Mobile Data\n4 ==> Airplane Mode\n5 ==> Exit")
 # numb = int(input("Enter your choice: "))
 
 # match numb:

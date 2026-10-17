@@ -65,14 +65,6 @@
 # print(subtract(10, 3))  # 7
 # print(subtract(3, 10))  # -7
 
-
-# # 10. 
-# def get_min_max(a, b):
-#     return min(a, b), max(a, b)
-
-# print(get_min_max(12, 5))
-
-
 # # 11. 
 # def calculate(a, b):
 #     return a + b, a - b, a * b, a / b

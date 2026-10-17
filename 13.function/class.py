@@ -51,10 +51,3 @@
 
 # result = add_five(double(10))
 # print(result)
-
-def show():
-    print("A")
-    print("B")
-
-print("C")
-show()

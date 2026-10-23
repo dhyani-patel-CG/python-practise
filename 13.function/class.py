@@ -51,3 +51,33 @@
 
 # result = add_five(double(10))
 # print(result)
+
+
+# # recurction 
+# def counter_fun(count):
+#     count += 1
+#     if (count==5):
+#         return count
+#     return counter_fun(count)
+# print(counter_fun(1))
+
+# def info(name="pp" , age=6):
+#     print(age)
+#     return 5
+# b=info(name="dhyani",age=20)
+# print (b)
+# print(info(name="dhyani",age=20))
+
+# def inf(a,c,*args):
+#     print(a,b,c)
+#     print(args)
+# inf("patel",7,6,5,"h",3,2,1,0,"dhyani",b=88)
+
+
+word = " "
+word1 = "callofduty"
+for word in word1:
+    print("true")
+    break
+else:
+    print("false")

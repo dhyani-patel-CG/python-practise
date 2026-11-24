@@ -53,7 +53,7 @@
 # print(result)
 
 
-# # recurction 
+# # recurction : 
 # def counter_fun(count):
 #     count += 1
 #     if (count==5):
@@ -68,16 +68,78 @@
 # print (b)
 # print(info(name="dhyani",age=20))
 
+###===>>
 # def inf(a,c,*args):
 #     print(a,b,c)
 #     print(args)
 # inf("patel",7,6,5,"h",3,2,1,0,"dhyani",b=88)
 
+###===>>
+# word = " "
+# word1 = "callofduty"
+# for word in word1:
+#     print("true")
+#     break
+# else:
+#     print("false")
 
-word = " "
-word1 = "callofduty"
-for word in word1:
-    print("true")
-    break
-else:
-    print("false")
+
+###===>>
+# def divide(c,d=15,/,*,a,b=2):
+#     return a/b,c+d
+
+# print(divide(15,a=10))
+
+
+###===>>
+# def book_ticket(source, destination, /, *, passenger, seat="regular"):
+#     print(source, "to", destination)
+#     print("Passenger:", passenger)
+#     print("Seat:", seat)
+
+# book_ticket("Pune", "Mumbai", passenger="Asha", seat="window")
+# book_ticket("Pune", "Mumbai", passenger="Asha")
+
+
+###===>>
+# def add(*args):
+#     print(args)
+#     print(type(args))
+
+# add(10, 20, 30)
+
+
+###===>>>
+# def add(**kwargs):
+#     print(kwargs)
+#     print(type(kwargs))
+
+# add(a=10, b=20, c=30)
+
+
+# text = "callofduty"
+# target = "duty"
+
+# found = False
+
+# for i in range(len(text) - len(target) + 1):
+#     match = True
+
+#     for j in range(len(target)):
+#         if text[i + j] != target[j]:
+#             match = False
+#             break
+
+#     if match:
+#         print("Found:", text[i:i + len(target)])
+#         found = True
+#         break
+
+# if not found:
+#     print("Not found")
+
+# def show_letters(a, b, c):
+#     print(a, b, c)
+
+# show_letters(*"cat")  
+

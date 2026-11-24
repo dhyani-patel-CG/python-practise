@@ -1,8 +1,11 @@
 # task 1
+
 #result=30
 #if result>32 :
  #   print("pass")
+
 # task2
+
 #age = int(input("enter your age: ").split()[0])
 #gender = input("enter your gender: ")
 #gender = gender.lower().strip()
@@ -20,7 +23,9 @@
 
     #if gender!="male":
      #   print("seat booking is not nessasary")  
+
 #  task 3
+
 #age= 15
 #if age >=18:
  #   print("you can watch this movie")   
@@ -28,6 +33,7 @@
  #   print("you can not watch this movie")
 
 # task 4
+
 #username=input("enter username: ").strip()
 #password=input("enter 5 digit password: ")[:6]
 #print(username , password)
@@ -45,6 +51,7 @@
  #   print("use another username")
 
 # task 5
+
 # a = int(input("enter a number 1 : ")[:1])
 # b = int(input("enter a number 2 : ")[:1])
 
@@ -64,8 +71,19 @@
 # else:
 #      print("invalid opration")
 
+# # task 6
 
+# has_id=input("enter if he has id (YES/NO): ").strip().lower()
+# if has_id=="no":
+#     has_id=False
+# elif has_id=="yes":
+#     has_id=True
+# else:
+#     print("enter valid value")
 
-
+# if has_id==True:
+#     print("welcome!!")
+# elif has_id==False:
+#     print("bring your id!!")
 
 

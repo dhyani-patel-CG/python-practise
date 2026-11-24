@@ -25,15 +25,15 @@
 # for n in range(4):
 #         print("*")
 
-n = int(input("enter a value: "))
-for row in range(1,n+1):
-    for col in range(1,n+1):
-        if col==1 or col==n or row==n:
-            print("*",end="  ")
-        else:
-            print(end="   ")
-        if n%2!=0:
-         m=(n+1)/2
-         if row==m and col==m:
-            print("*")
-    print()
+# n = int(input("enter a value: "))
+# for row in range(1,n+1):
+#     for col in range(1,n+1):
+#         if col==1 or col==n or row==n:
+#             print("*",end="  ")
+#         else:
+#             print(end="   ")
+#         if n%2!=0:
+#          m=(n+1)/2
+#          if row==m and col==m:
+#             print("*")
+#     print()

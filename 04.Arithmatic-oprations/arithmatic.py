@@ -1,203 +1,234 @@
-# Arithmatic oprations
-# part 2 , que 1
-print(10 + 5)
-print(10 - 5)
-print(10 * 5)
-print(10 / 5)
-print(10 // 3)
-print(10 % 3)
-print(2 ** 4)
+# # Arithmatic oprations
 
-# que 2
-print(10 + 5 * 2)
-print((10 + 5) * 2)
+# # part 2 , que 1
+# print(10 + 5)
+# print(10 - 5)
+# print(10 * 5)
+# print(10 / 5)
+# print(10 // 3)
+# print(10 % 3)
+# print(2 ** 4)
 
-# que 3
-print(20 / 5 * 2)
-print(20 // 3 * 2)
-print(20 - 5 + 2)
+# # que 2
+# print(10 + 5 * 2)
+# print((10 + 5) * 2)
 
-# que 4
-print(10 - (-5))
-print(-10 - 5)
-print(-10 - (-5))
+# # que 3
+# print(20 / 5 * 2)
+# print(20 // 3 * 2)
+# print(20 - 5 + 2)
 
-# que 5
-print(10 // 3)
-print(-10 // 3)
-print(10 // -3)
-print(-10 // -3)
+# # que 4
+# print(10 - (-5))
+# print(-10 - 5)
+# print(-10 - (-5))
 
-# que 6
-print(10 % 3)
-print(-10 % 3)
-print(10 % -3)
-print(-10 % -3)
+# # que 5
+# print(10 // 3)
+# print(-10 // 3)
+# print(10 // -3)
+# print(-10 // -3)
 
-# que 7
-print(-2 ** 2)
-print((-2) ** 2)
-print(-2 ** 3)
-print((-2) ** 3)
+# # que 6
+# print(10 % 3)
+# print(-10 % 3)
+# print(10 % -3)
+# print(-10 % -3)
 
-# que 8
-print(True + True)
-print(True + False)
-print(False * 10)
-print(True * 10)
-print(True / 2)
+# # que 7
+# print(-2 ** 2)
+# print((-2) ** 2)
+# print(-2 ** 3)
+# print((-2) ** 3)
 
-# que 9
-print("Python" + "Programming")
-print("Python" * 3)
+# # que 8
+# print(True + True)
+# print(True + False)
+# print(False * 10)
+# print(True * 10)
+# print(True / 2)
+
+# # que 9
+# print("Python" + "Programming")
+# print("Python" * 3)
 
 
-# part 3 , task 1
-a = 4
-b = 6
-print(a+b)
-print(a-b)
-print(a*b)
-print(a/b)
-print(a//b)
-print(a%b)
-print(a*b)
+# # part 3 , task 1
+# a = 4
+# b = 6
+# print(a+b)
+# print(a-b)
+# print(a*b)
+# print(a/b)
+# print(a//b)
+# print(a%b)
+# print(a*b)
 
-#task 2
-a = 5
-b = 6.9
-print(type(a+b) , a+b)
-print(type(a-b) , a-b)
-print(type(a/b) , a/b)
-print(type(a//b) , a//b)
-print(type(a*b) , a*b)
-print(type(a**b) , a**b)
+# #task 2
+# a = 5
+# b = 6.9
+# print(type(a+b) , a+b)
+# print(type(a-b) , a-b)
+# print(type(a/b) , a/b)
+# print(type(a//b) , a//b)
+# print(type(a*b) , a*b)
+# print(type(a**b) , a**b)
 
-#task 3
+# #task 3
 
-marks1 = 89
-marks2 = 95
-print(marks1+marks2)
-print((marks1+marks2)/2)
+# marks1 = 89
+# marks2 = 95
+# print(marks1+marks2)
+# print((marks1+marks2)/2)
 
-#task 4
+# #task 4
 
-product_price = 500
-Quantity = 2
-print(product_price+Quantity)
+# product_price = 500
+# Quantity = 2
+# print(product_price+Quantity)
 
-#task 5
+# #task 5
 
-a = 5
-b = 2
-number%2=0
+# a = 5
+# b = 2
+# number%2=0
 
-#task 6
+# #task 6
 
-a = 5
-b = 4
-print(a/b)
-print(a//b)
+# a = 5
+# b = 4
+# print(a/b)
+# print(a//b)
 
-#tast 7
+# #tast 7
 
-a = -4
-b = -7
-print(a+b)
-print(a-b)
-print(a*b)
-print(a/b)
-print(a//b)
-print(a%b)
+# a = -4
+# b = -7
+# print(a+b)
+# print(a-b)
+# print(a*b)
+# print(a/b)
+# print(a//b)
+# print(a%b)
 
-#tast 8
+# #tast 8
 
-a = -7
-b = 5
-print(a+b)
-print(a-b)
-print(a*b)
-print(a/b)
-print(a//b)
-print(a%b)
+# a = -7
+# b = 5
+# print(a+b)
+# print(a-b)
+# print(a*b)
+# print(a/b)
+# print(a//b)
+# print(a%b)
 
-#tast 9
+# #tast 9
 
-a = 7
-b = 9
-print(a//b)
-print((-a)//b)
-print(a//(-b))
-print((-a)//(-b))
+# a = 7
+# b = 9
+# print(a//b)
+# print((-a)//b)
+# print(a//(-b))
+# print((-a)//(-b))
 
-#tast 10
+# #tast 10
 
-print(5%7)
-print((-5)%7)
-print(5%(-7))
-print((-5)%(-7))
+# print(5%7)
+# print((-5)%7)
+# print(5%(-7))
+# print((-5)%(-7))
 
-#part task 11
+# #part task 11
 
-print(10 + 5 * 2)
-print(20 - 4 / 2)
-print(10 + 20 / 5 * 2)
-print(2 + 3 * 4 ** 2)
-print(100 - 20 // 5)
+# print(10 + 5 * 2)
+# print(20 - 4 / 2)
+# print(10 + 20 / 5 * 2)
+# print(2 + 3 * 4 ** 2)
+# print(100 - 20 // 5)
 
-#task 12
+# #task 12
 
-print(10 + 5 * 2)
-print((10 + 5) * 2)
+# print(10 + 5 * 2)
+# print((10 + 5) * 2)
 
-print(20 - 10 / 2)
-print((20 - 10) / 2)
+# print(20 - 10 / 2)
+# print((20 - 10) / 2)
 
-print(2 + 3 * 4)
-print((2 + 3) * 4)
+# print(2 + 3 * 4)
+# print((2 + 3) * 4)
 
-#task 13
+# #task 13
 
-a = True
-b = False
-print(a+b)
-print(a-b)
-print(a*b)
-print(a/b)
-print(a//b)
-print(a%b)
+# a = True
+# b = False
+# print(a+b)
+# print(a-b)
+# print(a*b)
+# print(a/b)
+# print(a//b)
+# print(a%b)
 
-#task 14
+# #task 14
 
-print(True + 5)
-print(False + 5)
-print(True * 10)
-print(False * 10)
-print(True - 5)
-print(False - 5)
+# print(True + 5)
+# print(False + 5)
+# print(True * 10)
+# print(False * 10)
+# print(True - 5)
+# print(False - 5)
 
-#task 15
+# #task 15
 
-First_name = "Dhyani"
-Last_name = "Patel"
-print(First_name+Last_name)
+# First_name = "Dhyani"
+# Last_name = "Patel"
+# print(First_name+Last_name)
 
-#tast 16
+# #tast 16
 
-a = "dhyani"
-b = 3
-print(a**b)
+# a = "dhyani"
+# b = 3
+# print(a**b)
 
-#tast 17
+# #tast 17
 
-a = "6"
-b = "7"
-print(a+b)
-print(a-b)
-print(a*b)
-print(a/b)
+# a = "6"
+# b = "7"
+# print(a+b)
+# print(a-b)
+# print(a*b)
+# print(a/b)
 
-#task 18
+# #task 18
 
-value = None
-print
+# value = None
+# print(value+1)
+# print(value-1)
+# print(value*2)
+# print(value/3)
+# print(value//3)
+# print(value%3)
+# print(value**4)
+
+# # # task 19
+
+# num = 20
+# print(num/0)
+
+# # task 20
+# a = int(input("enter a first number: "))
+# b = int(input("enter a second number: "))
+# option = int(input("choose a option:\n 1.addtion \n 2.substraction \n 3.multiplication \n 4.division \n 5.Floor Division \n 6.Modulus \n 7.Exponentiation"))
+# if option==1:
+#     print("addtion: " , a+b)
+# elif option==2:
+#     print("substraction: " , a-b)
+# elif option==3:
+#     print("multiplication: ", a*b)
+# elif option==4:
+#     print("division: ", a/b)
+# elif option==5:
+#     print("floor division: ", a//b)
+# elif option==6:
+#     print("modulus of both numbers: ", a%2 , b%2)
+# elif option==7:
+#     print("Exponentiation of both numbers: ", a**2 , b**2)
